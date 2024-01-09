@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
+      h1 {
+        padding: 60px;
+        text-align: center;
+        background-color: #4cd137;
+        color: white;
+      }
+      .btn {
+        width: 200px;
+        border: none; /*remove image border*/
+        padding: 12px;
+        background-color: #4cd137;
+        color: white;
+        border-radius: 4px;
+        margin: 0 auto;
+        /* margin: 0 0 0 0; top left bottom right*/
+        /* margin: 0 0 ; top-bottom left-right*/
+        /* margin: 0; same value for top right bototm left*/
+        display: block;
+      }
+      .container {
+        width: 900px;
+        margin: 0 auto;
+      }
+      article {
+        padding: 55px;
+        margin-top: -18px;
+      }
+      footer {
+        text-align: center;
+      }
+      footer p {
+        line-height: 20px;
+      }
+    </style>
+  </head>
+  <body style="background-color: #efefef; font-family: 'Poppins', sans-serif">
+    <div class="container">
+      <header>
+        <h1>SOMETHING BIG...</h1>
+      </header>
+
+      <article style="background-color: white">
+        <h3>Hi Stranger,</h3>
+        <p>
+          Lorem Ipsum has been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book. It has survived not only five centuries,
+          but also the leap into electronic typesetting, remaining essentially
+          unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently
+          with desktop publishing software like Aldus PageMaker including
+          versions of Lorem Ipsum.
+        </p>
+
+        <button type="button" class="btn share">Share the Awesomeness</button>
+
+        <p>
+          Lorem Ipsum has been the industry's standard dummy text ever since the
+          1500s, a type <span style="color: #4cd137">specimen book.</span>
+        </p>
+
+        <p><i>-Mr. Pen</i></p>
+      </article>
+
+      <footer style="color: gray; font-size: 12px">
+        <p>
+          Sent by <b>Company name,</b> 1234 Yellow Brick Road OZ, 99999 <br /><b
+            >hello@company.com | Unsubscribe</b
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
